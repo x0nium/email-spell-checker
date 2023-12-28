@@ -148,13 +148,13 @@ const POPULAR_TLDS = [
 ];
 
 const DEFAULT_CONFIG = {
-  domainThreshold: 2,
+  domainThreshold: 3,
   domains: POPULAR_DOMAINS,
 
-  secondLevelThreshold: 2,
+  secondLevelThreshold: 3,
   secondLevelDomains: ['yahoo', 'hotmail', 'mail', 'live', 'outlook'],
 
-  topLevelThreshold: 2,
+  topLevelThreshold: 3,
   topLevelDomains: POPULAR_TLDS,
 
   distanceFunction: sift3Distance,
